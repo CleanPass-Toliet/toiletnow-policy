@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>화장실나우</title>
+<meta name="description" content="화장실나우 - 사용자 맞춤형 실시간 공중화장실 정보 제공 서비스" />
+<style>
+  :root { --primary:#1E88E5; --primary-light:#E3F2FD; --text:#1A1D29; --text2:#4B5563; --text3:#9CA3AF; --border:#E5E7EB; --bg:#F5F7FA; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --primary:#64B5F6; --primary-light:#0D2A44; --text:#F3F4F6; --text2:#C9CED6; --text3:#8B93A1; --border:#2A2F3A; --bg:#0F1218; --card:#171B23; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+    font-family: 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',system-ui,sans-serif;
+    line-height:1.7; -webkit-text-size-adjust:100%; }
+  header { background:var(--card); border-bottom:1px solid var(--border); }
+  .wrap { max-width:760px; margin:0 auto; padding:0 16px; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; height:60px; }
+  .brand { font-weight:900; font-size:20px; color:var(--primary); text-decoration:none; }
+  nav a { color:var(--text2); text-decoration:none; font-size:14px; margin-left:16px; }
+  nav a:hover, nav a[aria-current="page"] { color:var(--primary); }
+  main .wrap { padding-top:32px; padding-bottom:64px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  .date { color:var(--text3); font-size:14px; margin:0 0 28px; }
+  section { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px 22px; margin-bottom:14px; }
+  h2 { font-size:17px; margin:0 0 8px; }
+  section p { margin:0; color:var(--text2); white-space:pre-line; font-size:15px; }
+  .hero { padding:56px 0 24px; }
+  .hero h1 { font-size:34px; color:var(--primary); }
+  .hero p { color:var(--text2); font-size:17px; margin:8px 0 0; }
+  .links { display:grid; gap:12px; margin-top:28px; }
+  .links a { display:block; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px 20px; color:var(--text); text-decoration:none; font-weight:700; }
+  .links a span { display:block; font-weight:400; color:var(--text3); font-size:14px; }
+  .links a:hover { border-color:var(--primary); }
+  footer { color:var(--text3); font-size:13px; padding:24px 0 40px; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="./index.html">화장실나우</a>
+  <nav>
+    <a href="./terms.html">이용약관</a>
+    <a href="./privacy.html">개인정보처리방침</a>
+  </nav>
+</div></header>
+<main><div class="wrap">
+<div class="hero">
+  <h1>화장실나우</h1>
+  <p>사용자 맞춤형 실시간 공중화장실 정보 제공 서비스</p>
+  <p>내 주변 공중화장실의 위치, 운영시간, 편의시설과 이용자 후기를 한눈에 확인하세요.</p>
+</div>
+<div class="links">
+  <a href="./privacy.html">개인정보처리방침<span>어떤 정보를 수집하고 어떻게 보호하는지 안내합니다</span></a>
+  <a href="./terms.html">이용약관<span>서비스 이용 조건을 안내합니다</span></a>
+</div>
+</div></main>
+<footer><div class="wrap">© 화장실나우 · 문의: 김가현 / 2024000002@g.baewha.ac.kr</div></footer>
+</body>
+</html>
